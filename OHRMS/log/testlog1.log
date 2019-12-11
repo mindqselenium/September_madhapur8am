@@ -1,0 +1,12 @@
+2019-10-01 20:49:55,461 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - initialization started
+2019-10-01 20:50:02,236 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - title validation started
+2019-10-01 20:50:02,658 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - login screenshot captured
+2019-12-09 09:44:34,620 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - initialization started
+2019-12-09 09:44:44,857 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - title validation started
+2019-12-09 09:44:45,356 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - login screenshot captured
+2019-12-10 09:08:36,603 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - initialization started
+2019-12-10 09:08:45,420 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - title validation started
+2019-12-10 09:08:45,894 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - login screenshot captured
+2019-12-10 09:18:04,105 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - initialization started
+2019-12-10 09:18:13,397 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - title validation started
+2019-12-10 09:18:13,806 [main] INFO com.OHRMS.testcasescripts.LoginPageTest - login screenshot captured
