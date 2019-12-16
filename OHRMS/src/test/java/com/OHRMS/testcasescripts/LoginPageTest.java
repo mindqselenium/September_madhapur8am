@@ -29,9 +29,10 @@ public class LoginPageTest extends Baseclass {
 	private String loginpageimg;	 
 	
 	org.apache.log4j.Logger logger=org.apache.log4j.Logger.getLogger(LoginPageTest.class);
-	String configurepath=System.getProperty("F:\\Selenium_September_madhapur8AM\\OHRMS\\src\\main\\java\\log4j.properties");
+	String configurepath=System.getProperty("C:\\Users\\sudheer\\git\\September_madhapur8am\\OHRMS\\src\\main\\java\\log4j.properties");
 	public LoginPageTest() throws IOException {
-		super();
+		super(
+				);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -58,6 +59,7 @@ public class LoginPageTest extends Baseclass {
 		
 		takescreenshot("loginpageimg");
 		logger.info("login screenshot captured");
+
 		hp=lp.login(prop.getProperty("username"),prop.getProperty("password"));
 	}
 	

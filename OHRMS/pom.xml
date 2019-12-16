@@ -5,8 +5,7 @@
 
 	<groupId>ORANGEHRMS</groupId>
 	<artifactId>OHRMS</artifactId>
-	<version>0.0.2-OHRMS_BUILD</version>
-	<packaging>war</packaging>
+	<version>0.0.1-OHRMS_BUILD</version>
 
 	<name>OHRMS</name>
 	<url>http://maven.apache.org</url>
@@ -30,7 +29,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M3</version>
+				 <version>3.0.0-M4</version>
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>OHRMSSUITE.xml</suiteXmlFile>
@@ -58,12 +57,13 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>6.14.2</version>
-			<scope>test</scope>
-		</dependency>
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.0.0</version>
+    <scope>test</scope>
+</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 		<dependency>

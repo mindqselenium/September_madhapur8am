@@ -29,7 +29,7 @@ public class LoginPage extends Baseclass {
 	@FindBy(name="txtPassword")
 	WebElement password_textbox;
 	
-	@FindBy(xpath=".//*[@id='btnLogin'][@value='LOGIN']")
+	@FindBy(xpath="//input[@name='Submit']")
 	WebElement LoginButton;
 	
 	public String validateloginPageTitle(){
@@ -42,7 +42,7 @@ public class LoginPage extends Baseclass {
 		username_textbox.sendKeys(un);
 		password_textbox.sendKeys(pwd);
 		LoginButton.click();
-		    LoginButton.click();
+		   
 	return new HomePage();// navigating to home page once login was success or landing page
 	    	   
 	}

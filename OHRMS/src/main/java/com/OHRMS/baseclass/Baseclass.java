@@ -32,7 +32,7 @@ public class Baseclass {
 		
 		prop=new Properties(); // to create propery file statements
 	FileInputStream fip=new FileInputStream
-			("F:\\Selenium_September_madhapur8AM\\OHRMS\\src\\main\\java\\com\\OHRMS\\config\\config.properties");
+			("C:\\Users\\sudheer\\git\\September_madhapur8am\\OHRMS\\src\\main\\java\\com\\OHRMS\\config\\config.properties");
 	prop.load(fip); // to load config.properties file properly.
 	
 	}
@@ -42,7 +42,7 @@ public static void initialization(){
 	String browsername=prop.getProperty("browser");
 	
 	if(browsername.equals("chrome")){
-		System.setProperty("webdriver.chrome.driver","F:\\SELENIUM SOFTWARES 2019\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","F:\\SELENIUM SOFTWARES 2019\\drivers\\chromedrivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 	}
 
@@ -77,7 +77,7 @@ public static void initialization(){
 		File f=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); // to capture screenshot	
 		//copy the screenshot from variable f to custom location.
 		//FileUtils.copyFile(f, new File("E:\\SELENIUM WORKSPACE 2017\\SELENIUM 11 to 1PM\\OHRMS\\screenshots\\"+str+time+".png"));
-		FileHandler.copy(f, new File("F:\\Selenium_September_madhapur8AM\\OHRMS\\screenshots\\"+str+time+".png"));
+		FileHandler.copy(f, new File("C:\\Users\\sudheer\\git\\September_madhapur8am\\OHRMS\\screenshots\\"+str+time+".png"));
 	}
 	
 	
